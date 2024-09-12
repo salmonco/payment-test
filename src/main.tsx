@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { CheckoutPage } from "./pages/Checkout";
 import { SuccessPage } from "./pages/Success";
 import { FailPage } from "./pages/Fail";
+import { PortOneTest } from "./pages/PortOneTest";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/fail",
     element: <FailPage />,
+  },
+  {
+    path: "/portOneTest",
+    element: <PortOneTest />,
   },
 ]);
 
